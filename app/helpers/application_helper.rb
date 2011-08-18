@@ -1,5 +1,11 @@
 module ApplicationHelper
 
+  # set up the logo link
+  def logo
+    image_tag("logo.png", :alt => "Sample App", :class => "round")
+  end
+
+
   # Return a title on a per-page basis
   def title
     base_title = "RoR Tutorial Sample App"
