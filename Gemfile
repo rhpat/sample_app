@@ -22,6 +22,7 @@ gem 'rails', '3.0.9'
 # gem 'nokogiri'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'gravatar_image_tag'
 
 # gem 'aws-s3', :require => 'aws/s3'
 
@@ -40,4 +41,5 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'factory_girl_rails'
 end
